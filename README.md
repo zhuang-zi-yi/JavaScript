@@ -1,4 +1,3 @@
-<img width="506" height="456" alt="QQ_1771900177690" src="https://github.com/user-attachments/assets/9aa4c5c5-a33a-433b-8379-74c235d96c63" /># JavaScript
 今天是2026/2/22我又开始从新看JavaScript了.这是从新的第三遍<br>
 javascript是一种运行在客户端的编程语言,实现人机交互<br>
 javascript的组成分为ecmascript(规定了js基础语法)语言和web apis<br>
@@ -16,8 +15,8 @@ javascript多行注释<br>
 javascript的结束符号可以写也可以不写,结束符号为;<br>
 <img width="506" height="456" alt="QQ_1771900177690" src="https://github.com/user-attachments/assets/12abe5d0-651c-47ef-a1c4-a477bb9726a8" /><br>
 <h1>输出文档语法基础document,write(`你要写的内容`)</h1><br>
-基础警示框基础语法alert(`要输出内容`)<br?
-控制台输入语法console.log(`控制台打印输出`)<br>
+<h1>基础警示框基础语法alert(`要输出内容`)</h1><br?
+<h1>控制台输入语法console.log(`控制台打印输出`)</h1><br>
 
 
 
