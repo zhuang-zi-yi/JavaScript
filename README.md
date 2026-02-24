@@ -12,7 +12,10 @@ javscript书写位置<br>
 javascript单行注释//<br>
 作用在这一行中全部注释<br>
 javascript多行注释<br>
-/*内容*/在中间的内容全部注释
+/*内容*/在中间的内容全部注释<br>
+javascript的结束符号可以写也可以不写,结束符号为;<br>
+
+
 
 
 
