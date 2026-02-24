@@ -14,9 +14,9 @@ javascript多行注释<br>
 /*内容*/在中间的内容全部注释<br>
 javascript的结束符号可以写也可以不写,结束符号为;<br>
 <img width="506" height="456" alt="QQ_1771900177690" src="https://github.com/user-attachments/assets/12abe5d0-651c-47ef-a1c4-a477bb9726a8" /><br>
-<h1>输出文档语法基础document,write(`你要写的内容`)</h1><br>
-<h1>基础警示框基础语法alert(`要输出内容`)</h1><br?
-<h1>控制台输入语法console.log(`控制台打印输出`)</h1><br>
+<h3>输出文档语法基础document,write(`你要写的内容`)</h3><br>
+<h3>基础警示框基础语法alert(`要输出内容`)</h3><br>
+<h3>控制台输入语法console.log(`控制台打印输出`)</h3><br>
 
 
 
