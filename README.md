@@ -27,10 +27,23 @@ javascript的结束符号可以写也可以不写,结束符号为;<br>
 元素；数组中保存每个数据都叫数组元素<br>
 下标；数组中数组的编号<br>
 长度；数组中数据的个数；可以用length查看<br>
-常量<br>
+<h3>常量<br>
 使用const声明的变量叫做常量<br>
 当某个变量永远不会改变的时候，可以使用const来声明而不是let<br>
 使用const声明的变量叫常量<br>
+<h3>数据类型</h3><br>
+number数字型<br>
+string字符串型<br>
+boolean布尔型<br>
+undefined未定义型<br>
+null空类型
+<h3>引用数据类型</h3>
+object对象<br>
+带有数字的统一成为数字型<br>
+ <h3>算数运算符</h3>
+<img width="777" height="327" alt="image" src="https://github.com/user-attachments/assets/817a7d32-4b90-4200-a2c8-684b32ff5912" /><br>
+
+
 
 
 
