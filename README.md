@@ -42,6 +42,13 @@ object对象<br>
 带有数字的统一成为数字型<br>
  <h3>算数运算符</h3>
 <img width="777" height="327" alt="image" src="https://github.com/user-attachments/assets/817a7d32-4b90-4200-a2c8-684b32ff5912" /><br>
+算数运算符号优先级先乘除后加减，有小括号先算小括号<br>
+<H3>数据类型NaN</H3><br>
+NaN代表一个计算错误他是一个不正确或者未定义的数学操作所得到的结果，任何对于NaN的操作都是错误<br>
+<h3>数据类型字符串类型</h3>
+字符串类型string//通过``和""包括起来的数据都叫字符串，单引号和双引号没有区别.<br>
+
+
 
 
 
