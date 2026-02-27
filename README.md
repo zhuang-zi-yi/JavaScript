@@ -78,6 +78,32 @@ null表示赋值了，但是内容为空。<br>
 <h3>显示转换</h3><br>
 过度依赖隐式转换是不严谨的<br>
 概念自己写代码告诉系统该转换成什么代码<br>
+<h3>运算符</h3><br>
+赋值运算符；对变量进行赋值的运算符<br>
+=把右边给左边<br>
+其他运算符<br>
++=赋值例子<br>
+let num =1<br>
+num += 1或者num = num + 1<br>
+<h3>一元运算符</h3>
+所需表达式个数，分为一元二元，三元运算符<br>
+二元运算符 let num = 10 + 20<br>
+一元运算符 正号负号 ++（自增）--（自减）<br>
+前置自增<br>
+++num 和 num++（）++在前先加，++在后后加<br>
+前置自增靠计算先自能加一，后置自增先计算后加一。<br>
+前置加加和后置加加单独使用没有区别<br>
+<img width="458" height="240" alt="QQ_1772192202293" src="https://github.com/user-attachments/assets/f5e9c22a-76af-4498-aaba-d0e42373f86e" /><br>
+<h3>比较运算符</h3><br>
+<img width="343" height="256" alt="QQ_1772192365466" src="https://github.com/user-attachments/assets/c0333340-a256-4758-b1b7-b2c38aa827ae" /><br>
+===全等需要所有东西都相等类型也要相等，==相对等于<br>
+NaN不等于任何人包括他自己<br>
+
+
+
+
+
+
 
 
 
