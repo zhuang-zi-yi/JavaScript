@@ -1,4 +1,4 @@
-今天是2026/2/22我又开始从新看JavaScript了.这是从新的第三遍<br>
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/3f0a17ea-b100-4564-b847-e1fd8db2a9ae" />今天是2026/2/22我又开始从新看JavaScript了.这是从新的第三遍<br>
 javascript是一种运行在客户端的编程语言,实现人机交互<br>
 javascript的组成分为ecmascript(规定了js基础语法)语言和web apis<br>
 而web apis分为DOM(操控文档,页面元素移动大小添加操作)和BOM(操作浏览器页面创空检测窗口宽度，存储数据到浏览器)<br>
@@ -123,6 +123,17 @@ if（条件）{<br>
 满足代码条件}<br>
 括号里头条件为true时候，进入大括号执行代码。<br>
 小括号结果不是布尔类型，小括号会隐形转换为布尔<br>
+除了0所有数字都为真,空字符串也为flase<br>
+<h3>双分支if语法</h3>
+if(条件){满足条件要求执行代码<br>
+}<br>
+else{不满足条件执行代码}<br>
+<h3>if多分支</h3><br>
+<img width="899" height="439" alt="QQ_1772198876788" src="https://github.com/user-attachments/assets/d0961c21-048e-4f9f-83fc-b4b0d730f7ad" /><br>
+<h3>三元运算符</h3><br>
+条件?满足条件执行的代码:不满足条件执行的代码<br>
+
+
 
 
 
