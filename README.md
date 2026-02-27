@@ -98,6 +98,33 @@ num += 1或者num = num + 1<br>
 <img width="343" height="256" alt="QQ_1772192365466" src="https://github.com/user-attachments/assets/c0333340-a256-4758-b1b7-b2c38aa827ae" /><br>
 ===全等需要所有东西都相等类型也要相等，==相对等于<br>
 NaN不等于任何人包括他自己<br>
+<h3>逻辑运算符</h3>
+逻辑运算符解决多重条件判断<br>
+正确写法nun > 5&& nub > 100 
+ <h3>逻辑符号</h3>
+&&逻辑与 叫法并且  要求两边都为true结果才是true <br>
+||逻辑或 叫法或者 符号两边有一个是true 才是true <br>
+!逻辑非 叫法取反 true变false false变true<br>
+<h3>运算符的优先级</h3>
+<img width="629" height="290" alt="QQ_1772196069293" src="https://github.com/user-attachments/assets/18a8ce68-3139-4b49-9aaf-ef1d86fdbc67" /><br>
+先&&再||<br>
+<h3>语句</h3>
+表达式是可以被求值的代码,javascript会计算出一个结果,<br>
+<h3>语句</h3>
+是一段可执行的代码<br>
+表达式可以求值，语句不一定用值。<br>
+<h3>分支语句</h3>
+有时候要根据条件选择执行代码,这种叫做分支结构<br>
+某段代码被重复执行叫做循环结构<br>
+分支语句包含if分支,三元运算符,switch语句<br>
+<h3>if分支语句</h3>
+if语句有三种使用方法；单；双；多分支<br>
+if（条件）{<br>
+满足代码条件}<br>
+括号里头条件为true时候，进入大括号执行代码。<br>
+小括号结果不是布尔类型，小括号会隐形转换为布尔<br>
+
+
 
 
 
