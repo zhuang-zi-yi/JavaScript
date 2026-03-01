@@ -132,8 +132,44 @@ else{不满足条件执行代码}<br>
 <img width="899" height="439" alt="QQ_1772198876788" src="https://github.com/user-attachments/assets/d0961c21-048e-4f9f-83fc-b4b0d730f7ad" /><br>
 <h3>三元运算符</h3><br>
 条件?满足条件执行的代码:不满足条件执行的代码<br>
-
-
+<h3>switch语句</h3>
+switch(数据){<br>
+case 值1:<br>
+     代码1<br>
+     break<br>
+case 值2:<br>
+     代码2<br>
+     break<br>
+default:<br>
+      代码n<br>
+      break<br>
+}<br>
+找到小括号里头数据全等的case值，并执行相当于对应的代码<br>
+若没有全等===的则default执行<br>
+break的意思是终止/穿透<br>
+<h3>循环结构</h3>
+断点调试<br>
+打开浏览器摁f12<br>
+点到sour一栏<br>
+选择代码文件<br>
+while循环<br>
+ while:在期间，所以while循环在满足条件期间，重复执行某些代码。<br>
+ while循环基础指令<br>
+while(循环条件){<br>
+要重复执行代码(循环体)<br>
+ }<br>
+ 只要满足循环条件为true才会进行循环体执行代码<br>
+ while代码执行完不会退出，而是回到小括号判断条件是否满足，满足又去执行大括号代码，然后回到小括号判断条件<br>
+ <h3>while循环三要素</h3>
+ 1.变量起始值<br>
+ 2.终止条件<br>
+ 3.变量变化量<br>
+ <h3>循环退出</h3>
+ break退出循环<br>
+ continue结束本次循环，接着下一次循环下面接着来<br>
+ <img width="323" height="189" alt="QQ_1772340423237" src="https://github.com/user-attachments/assets/dc10f70c-51f7-4b9a-856d-0ad2bdebaef0" /><br>
+ continue死循环图<br>
+ 
 
 
 
