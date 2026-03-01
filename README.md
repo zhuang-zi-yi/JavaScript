@@ -169,6 +169,12 @@ while(循环条件){<br>
  continue结束本次循环，接着下一次循环下面接着来<br>
  <img width="323" height="189" alt="QQ_1772340423237" src="https://github.com/user-attachments/assets/dc10f70c-51f7-4b9a-856d-0ad2bdebaef0" /><br>
  continue死循环图<br>
+ <h3>for循环</h3>
+ 作用；重复执行代码<br>
+ for(变量起始值；终止条件；条件变化量){循环体}<br>
+ 
+ 
+ 
  
 
 
