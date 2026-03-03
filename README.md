@@ -200,9 +200,20 @@ while(循环条件){<br>
  数组.splice(起始位置,删除几个元素)删除指定元素<br>
  数组.spilce(起始位置,删除几个元素)如果不写删除几个元素会把后面写的全部删掉<br>
  arr.splice(1,1)这个代码意思是从索引号1位置开始删，只删一个<br>
- 
- 
-  
+ <h3>函数</h3>
+ 函数是一个代码块，被设计成为执行特定任务代码块<br>
+ 基础指令function(){}<br>
+ 函数可以把相同逻辑打包起来，有利于精简代码复用<br>
+ 函数调用指令函数名（）<br>
+ 函数不调用，函数不执行<br>
+ function get (nub,nub1){document.write(nub+nub1)}<br>这个nub，nub1叫形参<br>
+ get(10,20)这个数字叫实参<br>
+ 函数的返回值<br>
+ return 数据<br>
+ 在函数内使用return能将内部执行结果交给外部使用<br>
+ return后面代码不会在执行，会结束当前函数<br>
+ return函数可以没有return，这种情况是undefined<br>
+      
 
  
  
