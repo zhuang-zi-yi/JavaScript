@@ -213,6 +213,8 @@ while(循环条件){<br>
  在函数内使用return能将内部执行结果交给外部使用<br>
  return后面代码不会在执行，会结束当前函数<br>
  return函数可以没有return，这种情况是undefined<br>
+ 如果函数名字启用后面覆盖前面<br>
+ 如果形参过多会undefined，实参多形参，剩下的实参被忽略<br>
  
       
 
