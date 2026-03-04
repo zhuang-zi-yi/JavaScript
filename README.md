@@ -242,6 +242,12 @@ while(循环条件){<br>
 逻辑运算符的短路<br>
 短路值存在&&和||中，满足一定条件让右边代码不执行<br>
 &&左边为false短路，||左边为true就短路<br>
+如果&&2个都是真则返回最后一个值，||两个都是真返回第一个<br>
+<h3>转换成boolean型</h3>
+0，undefined，null，flase，Nan,转换成布尔值为false其他都是true<br>
+null字符转换0，减法会将空字符串变成0,nudefined 加上 1会出现NaN<br>
+null + 1 == 1<br>
+
 
       
 
