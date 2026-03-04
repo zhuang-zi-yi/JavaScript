@@ -237,8 +237,12 @@ while(循环条件){<br>
   避免全局变量之间的污染<br>
   基础语法(function(){})()<br>
   立即执行函数必须加分号：立即执行函数可以拥有名字<br>
-  
-  
+  <h3>逻辑中断</h3><br>
+  <img width="419" height="239" alt="QQ_1772596175046" src="https://github.com/user-attachments/assets/9f75790b-60f7-4e32-a452-ea220dc38284" /><br>
+逻辑运算符的短路<br>
+短路值存在&&和||中，满足一定条件让右边代码不执行<br>
+&&左边为false短路，||左边为true就短路<br>
+
       
 
  
