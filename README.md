@@ -273,14 +273,17 @@ JavaScript内部提供的对象，保安各种属性给开发者用<br>
 内置对象Math<br>
 math对象是JavaScript提供的数学对象<br>
 math对象包含方法有：
-random；生成0-1之间的随机数<br>
+random；生成0-1之间的随机数（包含0不包含1）<br>
 ceil；向上取整<br>
 floor；向下取整<br>
 max；找最大数<br>
 min；找最小值<br>
 pow；幂运算<br>
 abs；绝对值<br>
-
+round:四舍五入<br>
+null是一个空对象<br>
+<h3> 内置对象生成随机数范围</h3>
+<img width="785" height="386" alt="4be89974-fc8f-44a6-8065-22d4bd4e0418" src="https://github.com/user-attachments/assets/4dc56611-66f3-4a82-aa1d-a5e4cb48dc49" /><br>
 
 
  
