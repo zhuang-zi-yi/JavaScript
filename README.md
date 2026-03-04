@@ -263,8 +263,26 @@ null + 1 == 1<br>
 对象的使用方法<br>
 方法的调用对象名.方法名<br>
 <h3>遍历对象</h3>
- for (let k in obj){}<br>
- for in 不推荐遍历数组原因是因为k拿到是是字符串<br>
+for (let k in obj){}<br>
+for in 不推荐遍历数组原因是因为k拿到是是字符串<br>
+<img width="274" height="202" alt="QQ_1772635449268" src="https://github.com/user-attachments/assets/238ede24-9b0a-4a1f-b696-7f2b53cdf83d" /><br>
+ k存的是属性名在变量里头，在数组里面存着是下标<br>
+遍历变量需要console,log(obj[k])<br>
+<h3>内置对象</h3>
+JavaScript内部提供的对象，保安各种属性给开发者用<br>
+内置对象Math<br>
+math对象是JavaScript提供的数学对象<br>
+math对象包含方法有：
+random；生成0-1之间的随机数<br>
+ceil；向上取整<br>
+floor；向下取整<br>
+max；找最大数<br>
+min；找最小值<br>
+pow；幂运算<br>
+abs；绝对值<br>
+
+
+
  
 
       
