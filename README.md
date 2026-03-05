@@ -1,4 +1,4 @@
-今天是2026/2/22我又开始从新看JavaScript了.这是从新的第三遍<br>
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/036b793d-a797-4d2b-9a35-b9f6ed23bb56" />今天是2026/2/22我又开始从新看JavaScript了.这是从新的第三遍<br>
 javascript是一种运行在客户端的编程语言,实现人机交互<br>
 javascript的组成分为ecmascript(规定了js基础语法)语言和web apis<br>
 而web apis分为DOM(操控文档,页面元素移动大小添加操作)和BOM(操作浏览器页面创空检测窗口宽度，存储数据到浏览器)<br>
@@ -287,6 +287,16 @@ null是一个空对象<br>
 简单类型又叫基本数据类型或值类型，复杂类型又叫做引用类型<br>
 栈；由操作系统自动分配释放存储放函数参数值。局部变量值。其操作方式类似于数据结构中的栈，简单数据类型存放到栈里<br>
 堆；存储复杂类型（对象），一般由程序员不释放，由垃圾回收机制回收，引用数据类型放到堆里头<br>
+<h3>web api</h3><br>
+尽量用const原因是<br>
+const语义化更好<br>
+实际开发中react基本const<br>
+web api作用就是用js操作HTML和浏览器<br>
+分类为bom（操作浏览器）和dom（操作文档）<br>
+dom作用开发网页内容特效和实现用户交互<br>
+dom树<br>
+将HTML以树状态直观表达，我们称之为文档树或这个dom树<br>
+
 
                           
  
