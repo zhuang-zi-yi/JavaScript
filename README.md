@@ -282,9 +282,7 @@ pow；幂运算<br>
 abs；绝对值<br>
 round:四舍五入<br>
 null是一个空对象<br>
-<h3> 内置对象生成随机数范围</h3>[InternetShortcut]
-URL=https://developer.mozilla.org/zh-CN/docs/Web
-
+<h3> 内置对象生成随机数范围</h3>
 <img width="785" height="386" alt="4be89974-fc8f-44a6-8065-22d4bd4e0418" src="https://github.com/user-attachments/assets/4dc56611-66f3-4a82-aa1d-a5e4cb48dc49" /><br>
 
 
