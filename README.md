@@ -296,8 +296,35 @@ web api作用就是用js操作HTML和浏览器<br>
 dom作用开发网页内容特效和实现用户交互<br>
 dom树<br>
 将HTML以树状态直观表达，我们称之为文档树或这个dom树<br>
-
-
+ddom对象根据html标签生成js对象<br>
+document对象<br>
+是dom的最大对象<br>
+获取dom对象<br>
+ 选择匹配第一个标签<br>
+document，queryselector（`css选择器`）<br>
+包含一个或者多个css选择器字符串<br>
+css匹配第一个元素，如果没有匹配到返回null<br>
+匹配多个元素document,quertselectorAll(css元素)<br>
+得到是伪数组<br>
+有长度有索引号的数组<br>
+但是没有pop和push<br>
+其他获得dom方式<br>
+document,getElementById(`nav`)<br>
+根据id获取一个元素<br>
+document,getElementsByTagName(`div`)<br>
+根据标签获得一个元素<br>
+document,getElementsByClassName(`w`)
+根据元素名称获取元素<br>
+<h3>操作元素内容</h3><br>
+ 对象.innerText属性<br>
+ 对象.innerText = 新值<br>
+ innertext不解析标签<br>
+ 元素.innerHTML<br>
+ inner.HTML会解析标签<br>
+<h3>操作元素属性</h3><br>
+还可以通过js设置修改元素标签，比如说src更换图片
+常见属性href,title,src等<br>
+对象.属性=值<br>
                           
  
 
