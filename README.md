@@ -324,7 +324,16 @@ document,getElementsByClassName(`w`)
 <h3>操作元素属性</h3><br>
 还可以通过js设置修改元素标签，比如说src更换图片
 常见属性href,title,src等<br>
-对象.属性=值<br>
+对象.属性=值<br
+<h3>操作元素样式属性</h3>
+通过style属性操作css<br>
+通过类名操作css<br>
+通过classList操作css<br>
+<h4>通过style操作css</h4>
+对象.style.样式属性=值（一定情况下后面值要加字符串）<br>
+backgroundColor采取小驼峰命名方案，多组单词小驼峰方案<br>
+
+
                           
  
 
