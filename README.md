@@ -330,9 +330,9 @@ document,getElementsByClassName(`w`)
 通过类名操作css<br>
 通过classList操作css<br>
 <h4>通过style操作css</h4>
-对象.style.样式属性=值（一定情况下后面值要加字符串）<br>
-backgroundColor采取小驼峰命名方案，多组单词小驼峰方案<br>
-
+ 对象.style.样式属性=值（一定情况下后面值要加<h4>字符串</h4>）<br>
+backgroundColor采取小驼峰命名方案，多组单词小驼峰方案<br> 
+ 
 
                           
  
