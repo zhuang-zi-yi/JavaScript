@@ -304,7 +304,7 @@ document对象<br>
 document，queryselector（`css选择器`）<br>
 包含一个或者多个css选择器字符串<br>
 css匹配第一个元素，如果没有匹配到返回null<br>
-匹配多个元素document,quertselectorAll(css元素)<br>
+匹配多个元素document.quertselectorAll(css元素)<br>
 得到是伪数组<br>
 有长度有索引号的数组<br>
 但是没有pop和push<br>
@@ -332,6 +332,22 @@ document,getElementsByClassName(`w`)
 <h4>通过style操作css</h4>
  对象.style.样式属性=值（一定情况下后面值要加<h4>字符串</h4>）<br>
 backgroundColor采取小驼峰命名方案，多组单词小驼峰方案<br> 
+<h3>操作类名</h3>
+如果修改样式比较多直接通过style修改比较繁琐可以修改css类名
+元素.className = `类名`<br>
+class是使用新值换旧值，如果要求添加个类需要保留之前类名，会覆盖原来的属性<br>
+div.classnam = `老值，新值`要之前的老值<br>
+ 操作元素样式属性<br>
+ 通过className容易覆盖以前的类名，我们可以通过classList方式<br>
+ 追加一个类：元素.classList.add(`类名`)<br>
+ 删除一个类:元素.classList.remove(`类名`)<br>
+ 切换一个类:元素.classList.toggle(`类名`)<br>
+ classlist追加一个类名<br>
+ parseInt向下取整<br> 
+
+
+
+
  
 
                           
@@ -345,17 +361,6 @@ backgroundColor采取小驼峰命名方案，多组单词小驼峰方案<br>
 
 
 
-
-
-
-
-
-
-
-
-
-
- 
 
 
 
