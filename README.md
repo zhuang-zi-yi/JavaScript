@@ -344,7 +344,17 @@ div.classnam = `老值，新值`要之前的老值<br>
  切换一个类:元素.classList.toggle(`类名`)<br>
  classlist追加一个类名<br>
  parseInt向下取整<br> 
-1
+ <h3>操作表单元素</h3>
+ 表单很多时候也要修改属性，比如说点击眼睛可以看见密码本质是把表单变成文本框<br>
+ 获取dom对象，属性名<br>
+ 设置dom对象.属性名=新值<br>
+ 表单.value =`用户名字`<br>
+ 表单.type = `password`<br>
+ 狼途t88感觉手感挺好，就是打字确认感不强<br>
+ 
+ 
+   
+
 
 
 
