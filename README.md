@@ -344,7 +344,7 @@ div.classnam = `老值，新值`要之前的老值<br>
  切换一个类:元素.classList.toggle(`类名`)<br>
  classlist追加一个类名<br>
  parseInt向下取整<br> 
-
+1
 
 
 
