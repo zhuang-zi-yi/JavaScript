@@ -351,6 +351,8 @@ div.classnam = `老值，新值`要之前的老值<br>
  表单.value =`用户名字`<br>
  表单.type = `password`<br>
  狼途t88感觉手感挺好，就是打字确认感不强<br>
+ 获取表单内容只有`value`<br>
+     
  
  
    
