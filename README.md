@@ -352,7 +352,11 @@ div.classnam = `老值，新值`要之前的老值<br>
  表单.type = `password`<br>
  狼途t88感觉手感挺好，就是打字确认感不强<br>
  获取表单内容只有`value`<br>
-     
+  <h3>自定义属性</h3><br>  
+  <img width="1094" height="531" alt="image" src="https://github.com/user-attachments/assets/218113fc-da58-49f3-94e6-d7734dc2dba8" /><br>
+  <h3>间歇函数</h3>
+setinterval(函数,间隔时间)<br>
+每间隔一段时间执行一次函数<br>
  
  
    
