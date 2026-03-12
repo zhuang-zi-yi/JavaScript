@@ -1,4 +1,4 @@
-今天是2026/2/22我又开始从新看JavaScript了.这是从新的第三遍<br>
+<img width="2559" height="1439" alt="image" src="https://github.com/user-attachments/assets/1a148500-65f9-44ca-83c8-57c2ebde09a6" />今天是2026/2/22我又开始从新看JavaScript了.这是从新的第三遍<br>
 javascript是一种运行在客户端的编程语言,实现人机交互<br>
 javascript的组成分为ecmascript(规定了js基础语法)语言和web apis<br>
 而web apis分为DOM(操控文档,页面元素移动大小添加操作)和BOM(操作浏览器页面创空检测窗口宽度，存储数据到浏览器)<br>
@@ -354,10 +354,15 @@ div.classnam = `老值，新值`要之前的老值<br>
  获取表单内容只有`value`<br>
   <h3>自定义属性</h3><br>  
   <img width="1094" height="531" alt="image" src="https://github.com/user-attachments/assets/218113fc-da58-49f3-94e6-d7734dc2dba8" /><br>
-  <h3>间歇函数</h3>
+  <h3>间歇函数</h3><br>
 setinterval(函数,间隔时间)<br>
 每间隔一段时间执行一次函数<br>
- 
+1000毫秒等于1秒<br>
+定时器其实返回的是一个id数字<br>
+let 变量名 =setinterval(函数,间隔时间)<br>
+clearinterval(变量名)<br>
+获取button元素用的是innerHTML<br>
+
  
    
 
