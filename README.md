@@ -364,6 +364,7 @@ clearinterval(变量名)<br>
 获取button元素用的是innerHTML<br>
 btn.disabled = false<br>
 这种返回值是true<br>
+    
  
 
  
