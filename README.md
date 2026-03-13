@@ -384,8 +384,9 @@ blur失去焦点<br>
 <h3>键盘触发</h3>
 Keydown键盘按下触发<br>
 Keyup键盘抬起触发<br>
-<h3>表单输入触发</h3>
-
+<h3>表单输入触发</h3><br>
+ input<br>
+ next.click()调用函数<br>
 
 
  
