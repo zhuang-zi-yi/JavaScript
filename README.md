@@ -362,8 +362,36 @@ setinterval(函数,间隔时间)<br>
 let 变量名 =setinterval(函数,间隔时间)<br>
 clearinterval(变量名)<br>
 获取button元素用的是innerHTML<br>
-btn.disabled = false<br>
+<h3>btn.disabled = false禁用按钮</h3><br>
 这种返回值是true<br>
+<h3>事件监听</h3>
+事件是再编程时系统内发生的动作或发生的事情<br>
+比如是用户在网页上单机一个按钮<br>
+事件监听基础语法：元素对象.addEventListener(`事件类型`，要执行的函数)<br>
+事件监听三要素：
+事件源：那个dom元素被事件触发了，要获得dom元素<br>
+事件类型：用什么方法触发，比如鼠标单击click，鼠标经过mouseover<br>
+调用的函数：要做什么事情<br>
+事件类型要加引号<br>
+鼠标点击click<br>
+<h3>事件类型</h3>
+click鼠标点击<br>
+mouseenter鼠标经过<br>
+mouseleave鼠标离开<br>
+<h3>表单获得光标</h3>
+docus获得焦点<br>
+blur失去焦点<br>
+<h3>键盘触发</h3>
+Keydown键盘按下触发<br>
+Keyup键盘抬起触发<br>
+<h3>表单输入触发</h3>
+
+
+
+ 
+  
+   
+
     
  
 
