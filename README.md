@@ -387,8 +387,26 @@ Keyup键盘抬起触发<br>
 <h3>表单输入触发</h3><br>
  input<br>
  next.click()调用函数<br>
-
-
+<h3>事件对象</h3>
+事件对象是个对象，这个对象里有事件触发时的相关信息<br>
+列如鼠标点击事件中，事件对象就存了鼠标点哪里位置的等信息<br>
+使用场景<br>
+可以判断用户按下哪个键，比如按下回车键可以发布新闻<br>
+可以判断鼠标点击了哪个元素 ，从而相应操作<br>
+获取事件对象<br>
+在事件绑定的回调函数中第一个参数就是事件对象<br>
+一般命名event，ev，e<br>
+元素.addEventListenere(`click`,fuction(e){})<br>
+只有在事件监听里头才能是事件对象<br>
+获取事件对象<br>
+type获取当前事件类型<br>
+clientX/clientY获取光标相对于浏览器可见窗口左上角的位置<br>
+offsetX/offsetY获取光标相对于当前dom元素左上角的位置<br>
+key用户按下键盘的值keycode已经废弃<br>
+去除两边内容空格<br>
+const str =`         pink     `<br>
+console.log(str.trim())<br>
+输出pink<br>
  
   
    
