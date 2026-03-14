@@ -402,7 +402,7 @@ Keyup键盘抬起触发<br>
 type获取当前事件类型<br>
 clientX/clientY获取光标相对于浏览器可见窗口左上角的位置<br>
 offsetX/offsetY获取光标相对于当前dom元素左上角的位置<br>
-key用户按下键盘的值keycode已经废弃<br>
+key用户按下键盘的值k eycode已经废弃<br>
 去除两边内容空格<br>
 const str =`         pink     `<br>
 console.log(str.trim())<br>
