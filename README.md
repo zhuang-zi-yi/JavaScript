@@ -407,7 +407,21 @@ key用户按下键盘的值k eycode已经废弃<br>
 const str =`         pink     `<br>
 console.log(str.trim())<br>
 输出pink<br>
- 
+trim清除内容中空格<br>
+HTML的最大显示cols = `30`,rows=`10`<br> textarea<br>
+<h3>环境对象</h3><br>
+指的是函数内部变量this，它代表函数运行所处环境<br>
+搞清this指向能让代码简洁<br>
+普通函数里面this指向的是window<br>
+this指向的是函数调用者<br>
+谁调用，this就是谁<br>
+直接调用函数，其实相当于window，使用this变成window<br>
+<h3>回调函数</h3>
+如果将函数A作为参数传递给函数B时，我们称函数A为回调函数<br>
+
+
+
+
   
    
 
@@ -432,7 +446,7 @@ console.log(str.trim())<br>
  
 
 
-
+                                                                          
 
 
 
