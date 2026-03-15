@@ -471,7 +471,13 @@ e.preventDefault阻止默认行为<br>
  监听页面所有资源加载完毕：
  给window添加load事件<br>
  window.addEventListener(`load`,function(){})等待页面所有资源加载完毕，就回去执行回调函数<br>
-   
+ 页面加载事件<br>
+ 当初始HTML文档被完全加载和解析完成之后，DOMContentLoaded事件被触发，而无需等待样式表。图片等完全加载<br>
+ 事件名称DOMContentLoaded<br>
+ 给document添加DOMContentLoaded<br>
+ 基础写法document.addEventListener(`DOMContentLoaded`,fuction(){})<br>
+ 
+  
  
   
  
@@ -490,7 +496,7 @@ e.preventDefault阻止默认行为<br>
 
   
    
-
+  
     
  
 
