@@ -439,6 +439,24 @@ css:ck.checked选择被点击确认的表单<br>
 事件对象.stopropagation<br>
 <h3>解绑事件</h3>
 on事件方式直接用null覆盖解绑事件<br>
+移除事件btn.removeEventListener(事件类型，函数)//匿名函数无法移除<br>
+鼠标经过的事件的区别<br>
+mouseover和mouseout会有冒泡事件<br>
+mouseenter和mouseleave没有冒泡事件<br>
+<h3>二种注册事件的区别</h3>
+传统on注册(L0)<br>
+同一个对象，后面注册的事件会覆盖前面注册（同一个事件）<br>
+直接使用null覆盖偶就可以实现事件的解绑<br>
+都是冒泡阶段执行的<br>
+事件监听注册（L2）
+语法addEventListener(事件类型，事件处理函数，是否使用捕获)<br>
+后面注册的事件不会覆盖前面注册的事件<br>
+可以通过第三个参数去确定是在冒泡或者捕获阶段执行<br>
+必须使用removeEventListener(事件类型，事件处理函数，获取捕获或者冒泡阶段)<br>
+匿名函数无法解绑<br>
+ 
+
+
 
 
 
