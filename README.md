@@ -459,8 +459,23 @@ mouseenter和mouseleave没有冒泡事件<br>
 我们给父亲元素注册事件，当我们触发子元素时候，会冒泡到父元素身上，从而触发父亲元素的事件<br>
 tagName标签名字<br>
 <h3>我们可以实现：：事件对象.target.tagName可以获得真正触发事件元素</h3><br>
+ data-id = `0`,div.dataset.id <br>
+<h3>阻止默认行为</h3>
+e.preventDefault阻止默认行为<br>
+ <h3>其他事件</h3><br>
+ 页面加载事件<br>
+ 可以加载外部资源，加载完毕时触发的事件<br>
+ 有些时候需要等页面资源全部处理完了做一些事情<br>
+ 老代码喜欢把script写在head中，使dom元素找不到<br>
+ 事件名：load<br>
+ 监听页面所有资源加载完毕：
+ 给window添加load事件<br>
+ window.addEventListener(`load`,function(){})等待页面所有资源加载完毕，就回去执行回调函数<br>
+   
+ 
   
-
+ 
+ 
 
 
 
