@@ -454,7 +454,10 @@ mouseenter和mouseleave没有冒泡事件<br>
 可以通过第三个参数去确定是在冒泡或者捕获阶段执行<br>
 必须使用removeEventListener(事件类型，事件处理函数，获取捕获或者冒泡阶段)<br>
 匿名函数无法解绑<br>
- 
+<h3>事件委托</h3><br>
+
+
+
 
 
 
