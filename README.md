@@ -499,6 +499,22 @@ e.preventDefault阻止默认行为<br>
  window.addEventListener(`resize`,function(){<br> 
  let w = document.documentElenment.clientWidth<br> 
  })<br> 
+ 获取宽高<br> 
+ 获取元素的可见部分宽高（不包括边框，margin，滚动条等）<br> 
+ clientWideth和clientHeight<br> 
+ <h3>元素尺寸</h3>
+ 元素尺寸与位置<br> 
+ offsetWidth和offsetHeight获取位置（包含边框，padding和border）<br> 
+ 获取出来的是数值<br> 
+ offsetLeft和offsetTop是只读属性<br> 
+ 加入定位的祖先元素 获取受到父亲的影响<br> 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  
  
   
