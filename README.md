@@ -476,6 +476,25 @@ e.preventDefault阻止默认行为<br>
  事件名称DOMContentLoaded<br>
  给document添加DOMContentLoaded<br>
  基础写法document.addEventListener(`DOMContentLoaded`,fuction(){})<br>
+ <h3>元素滚动事件</h3>
+ 滚动条在滚动的时候持续触发的事件<br>
+ 事件名称scroll<br>
+ 监听整个页面滚动<br>
+ window.addEvemt;osyemer(`scroll`,function(){})<br>
+ scrollLeft（被卷的左）和scrollTop(被卷去的头)的区别
+ 获取被卷进去的大小<br>
+ 获取元素内容往左，往上滚动出去看不到的距离<br>
+ 这两个值是可以读写的<br>
+ overflow:scroll1创建滚动条让css<br>
+ 拿到HTML标签写法document,documentElement返回的是数字型不带单位<br> 
+ 可给这个HTML赋值，需要给数字型不带单位<br> 
+  
+ 
+ 
+  
+ 
+ 
+ 
  
   
  
