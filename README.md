@@ -488,6 +488,19 @@ e.preventDefault阻止默认行为<br>
  overflow:scroll1创建滚动条让css<br>
  拿到HTML标签写法document,documentElement返回的是数字型不带单位<br> 
  可给这个HTML赋值，需要给数字型不带单位<br> 
+ scrollTo()方法可以把内容滚动到指定的坐标<br> 
+ window.scrollTo(0,1000)<br> 
+ 元素.scrollTo(x,y)<br> 
+ <h3>页面尺寸事件</h3><br> 
+ 会在窗口尺寸改变时候触发事件：
+ resize<br> 
+ window.addEventListener(`resize`,function)<br> 
+ 检测屏幕宽度<br> 
+ window.addEventListener(`resize`,function(){<br> 
+ let w = document.documentElenment.clientWidth<br> 
+ })<br> 
+ 
+ 
   
  
  
