@@ -507,7 +507,8 @@ e.preventDefault阻止默认行为<br>
  offsetWidth和offsetHeight获取位置（包含边框，padding和border）<br> 
  获取出来的是数值<br> 
  offsetLeft和offsetTop是只读属性<br> 
- 加入定位的祖先元素 获取受到父亲的影响<br> 
+ 加入定位的祖先元素 获取受到父亲的影响<br>
+  
  
  
  
