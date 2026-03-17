@@ -510,7 +510,13 @@ e.preventDefault阻止默认行为<br>
  加入定位的祖先元素 获取受到父亲的影响<br>
  <h3>总结各个定位</h3><br>
  <img width="1021" height="324" alt="image" src="https://github.com/user-attachments/assets/5bafd2c2-005e-468d-a2dd-5379c12de4e7" /><br>
- 
+  自定义属性使用e,target.dataset.name<br>
+  专门滑动属性让页面滑动html{scroll-behavior: smooth}<br>
+   
+  
+  
+  
+      
 
  
  
