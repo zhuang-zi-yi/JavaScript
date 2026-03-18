@@ -524,7 +524,26 @@ e.preventDefault阻止默认行为<br>
  const date = new Date(`2008-8-8`)<br>
  日期对象方法<br>
  <img width="1046" height="526" alt="image" src="https://github.com/user-attachments/assets/092f16b7-f059-4218-9ed4-d79396f482df" /><br>
- 
+ getMonth数值要加一因为取值为0到11<br>
+ getDay星期天取值为0<br>
+ date.toLocaleString()自动补0函数<br>
+<h3>时间戳</h3><br>
+是指1970年01月01日00时00分00秒起至现在的毫秒数，他说一种特殊的计量时间方式<br>
+能够获得当前时间戳<br>
+1000ms就是一秒<br>
+算法：将来的时间戳 - 现在的时间戳 = 剩余时间毫秒数<br>
+三种方法获取时间戳<br>
+getTime()方法<br>
+const date = new Date()<br>
+-----------------------------<br>
+简写+mew Date()无需实例化<br>
+---------------------------------<br>
+使用Date.now()只能获得当前的时间戳，而前两种可以返回指定时间的时间戳<br>
+
+
+
+
+
  
  
 
