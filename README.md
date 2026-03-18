@@ -1,4 +1,4 @@
-今天是2026/2/22我又开始从新看JavaScript了.这是从新的第三遍<br>
+  今天是2026/2/22我又开始从新看JavaScript了.这是从新的第三遍<br>
 javascript是一种运行在客户端的编程语言,实现人机交互<br>
 javascript的组成分为ecmascript(规定了js基础语法)语言和web apis<br>
 而web apis分为DOM(操控文档,页面元素移动大小添加操作)和BOM(操作浏览器页面创空检测窗口宽度，存储数据到浏览器)<br>
@@ -512,8 +512,23 @@ e.preventDefault阻止默认行为<br>
  <img width="1021" height="324" alt="image" src="https://github.com/user-attachments/assets/5bafd2c2-005e-468d-a2dd-5379c12de4e7" /><br>
   自定义属性使用e,target.dataset.name<br>
   专门滑动属性让页面滑动html{scroll-behavior: smooth}<br>
-   
-  
+ 属性选择器：类名[属性名]<br>
+ <h3>日期对象</h3><br>
+ 日期对象，可以让网页显示日期<br>
+ 可以得到当前系统时间<br>
+ <h4>实例化</h4><br>
+ 在代码中获得new关键字时，一般这个操作称为实例化<br>
+ 创建一个事件对象<br>
+ const date = new Date（）<br>
+ 获得指定时间<br>
+ const date = new Date(`2008-8-8`)<br>
+ 日期对象方法<br>
+ 
+
+ 
+ 
+ 
+ 
   
   
       
