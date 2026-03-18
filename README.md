@@ -545,6 +545,32 @@ dom树里面的每一个内容都称为节点<br>
 <img width="1109" height="514" alt="image" src="https://github.com/user-attachments/assets/2021fd0d-4f73-4189-a56a-8b1b83eb5b49" /><br>
 所有属性比如href。class就是属性节点<br>
 文本节点就是所有文本<br>
+ <h3>查找节点</h3><br>
+ 父节点查找parentNode属性<br>
+ 返回近一级的父节点，找不到返回null<br>
+ 子元素.parentNode<br>
+ ------------------------<br>
+ 查找结点<br>
+ 子节点查询<br>
+ childNods获取所有子节点包括文本节点（空格换行）.注释节点等<br>
+ children属性获取所有元素节点，返回的是一个伪数组<br>
+ 父元素.children<br>
+ 查找节点<br>
+ 兄弟关系查找：下个一个兄弟nextElementSibling属性<br>
+ 上一个兄弟节点previousElementSibling属性<br>
+ <h3>增加节点</h3>
+ 很多情况下需要在页面新增元素<br>
+ 一般情况下新增节点<br>
+ 先创建新节点<br>
+ 把创建的新节点放入指定的元素内部<br>
+ 创造节点方法：document，createElement(`标签名`)<br>
+ <h3>追加节点</h3>
+ 想要在界面看到，还需要插入到某个父元素中<br>
+ 插入到父元素的最后一个子元素<br>
+ 父元素.appendChild(要插入的元素)<br>
+ 插入到父元素中某个子元素的前面<br>
+ 
+ 
  
  
 
