@@ -536,9 +536,21 @@ e.preventDefault阻止默认行为<br>
 getTime()方法<br>
 const date = new Date()<br>
 -----------------------------<br>
-简写+mew Date()无需实例化<br>
+简写+mew Date()无需实例化（`2022-4-1 18：30：00`）<br>
 ---------------------------------<br>
 使用Date.now()只能获得当前的时间戳，而前两种可以返回指定时间的时间戳<br>
+<h3>节点操作</h3><br>
+dom节点<br>
+dom树里面的每一个内容都称为节点<br>
+<img width="1109" height="514" alt="image" src="https://github.com/user-attachments/assets/2021fd0d-4f73-4189-a56a-8b1b83eb5b49" /><br>
+所有属性比如href。class就是属性节点<br>
+文本节点就是所有文本<br>
+ 
+ 
+
+
+
+
 
 
 
@@ -556,7 +568,7 @@ const date = new Date()<br>
   
   
       
-
+  
  
  
  
