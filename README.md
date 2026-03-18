@@ -523,6 +523,9 @@ e.preventDefault阻止默认行为<br>
  获得指定时间<br>
  const date = new Date(`2008-8-8`)<br>
  日期对象方法<br>
+ <img width="1046" height="526" alt="image" src="https://github.com/user-attachments/assets/092f16b7-f059-4218-9ed4-d79396f482df" /><br>
+ 
+
  
 
  
