@@ -585,8 +585,14 @@ clonNode会克隆出一个根原标签一样的元素，括号传入布尔值<br
 在JavaScript原生dom操作中要删除元素通过父元素<br>
 语法父元素.removeChild(要删除元素)<br>
 删除节点和隐藏节点dsiplay：none有区别，一个是隐藏，删除是在HTML移除<br>
-  
-
+<h3>M段事件</h3><br>
+移动端有特殊事件<br>
+触屏事件touch（触屏事件），Android和ios都有<br>
+touch对象代表一个触摸点。触摸点可能是一根手指也有可能是一根触摸笔。
+触屏touch事件<br>
+touchstart手指触摸dom元素时触发<br>
+touchmove手指在一个dom元素上滑时触发<br>
+touchend手指从一个dom元素上移开触发<br>
 
 
  
