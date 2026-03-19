@@ -570,8 +570,25 @@ dom树里面的每一个内容都称为节点<br>
  父元素.appendChild(要插入的元素)<br>
  插入到父元素中某个子元素的前面<br>
  父元素.insertBefore(要插入的元素，在哪个元素前面)<br>
- 
- 
+ children[0]//insertBefore获得的数组<br>
+<h3>追加节点</h3><br>
+特殊情况下，我们新增节点按照如下操作<br>
+复制一个原有的节点<br>
+把复制节点放入指定元素内部<br>
+克隆节点元素.cloneNode(布尔值)<br>
+clonNode会克隆出一个根原标签一样的元素，括号传入布尔值<br>
+若为true则代表克隆时会包含后代节点一起克隆<br> 
+若是false则代表克隆不包括后代节点<br>
+默认值是false<br>
+<h3>删除节点</h3><br>
+在一个节点在页面中不需要的时候，可以删除他<br>
+在JavaScript原生dom操作中要删除元素通过父元素<br>
+语法父元素.removeChild(要删除元素)<br>
+删除节点和隐藏节点dsiplay：none有区别，一个是隐藏，删除是在HTML移除<br>
+  
+
+
+
  
  
 
