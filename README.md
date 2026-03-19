@@ -1,4 +1,4 @@
-  今天是2026/2/22我又开始从新看JavaScript了.这是从新的第三遍<br>
+<img width="836" height="365" alt="image" src="https://github.com/user-attachments/assets/b55eeeda-f936-4f3a-aa0b-ed3da36cff56" />  今天是2026/2/22我又开始从新看JavaScript了.这是从新的第三遍<br>
 javascript是一种运行在客户端的编程语言,实现人机交互<br>
 javascript的组成分为ecmascript(规定了js基础语法)语言和web apis<br>
 而web apis分为DOM(操控文档,页面元素移动大小添加操作)和BOM(操作浏览器页面创空检测窗口宽度，存储数据到浏览器)<br>
@@ -593,7 +593,16 @@ touch对象代表一个触摸点。触摸点可能是一根手指也有可能是
 touchstart手指触摸dom元素时触发<br>
 touchmove手指在一个dom元素上滑时触发<br>
 touchend手指从一个dom元素上移开触发<br>
+<h3>js插件</h3><br>
+swiper插件<br> 
+<img width="836" height="365" alt="image" src="https://github.com/user-attachments/assets/06042996-b2ed-4b32-8a86-440137d5520e" /><br>
 
+
+
+
+
+
+  
 
  
  
