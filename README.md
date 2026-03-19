@@ -604,9 +604,15 @@ window对象是一个全局对象，也可以说是JavaScript里的顶级对象<
 所有var定义的全局作用域中的变量，函数都会变成window对象属性方法<br>
 window对象下的属性和方法调用的时候可以省略window<br>
 <h3>延时函数</h3><br>
- 
-
-
+javascrip内置一个用让代码延迟执行的函数叫setTimeout<br>
+语法setTimeout(回调函数，等待的毫秒数)<br>
+setTiomeout仅仅执行一次，就是把一段代码延迟执行，省略window<br>
+清除延时函数：let timer = settIMEOUT(回调函数，等待的毫秒数)//clearTimeout(timer)<br>
+延时函数和间隔函数区别就是，一个是执行一次和每隔一段时间执行一次<br>
+<h3>js执行机制</h3><br>
+js语言特点就是单线程，就是同一时间只能做一个事情<br>
+单线程就意味着，所有人物需要排队，前一个人物结束，才会执行后一个任务。所以导致的问题是如果js执行过长，这样会造成页面的渲染不连贯，导致页面渲染加塞阻塞的感觉<br>
+为了解决这个问题，利用多核cpu计算能力，HTML提出web worker标准，允许JavaScript脚本创建多个线程，于是js出现了同步和异步
 
 
 
