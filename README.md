@@ -641,6 +641,19 @@ location.search获取？后面的东西就是//提交问号后面的地址<br>
 hash获取的是地址中的哈希值<br>
 reload方法用来刷新当前页面，传入参数为true时候强制刷新<br>
 location.reload(true)<br>
+<h3>navigator对象</h3><br>
+navigator的数据类型是对象，该对象下记录了浏览器自身相关的信息<br>
+常见属性：通过userAgent检测浏览器的版本<br>
+！/~/+function（）{}（）前加表达式可以得到立即执行函数<br>
+<h3>histroy对象</h3>
+histroy对象的数据类型是对象，主要管理历史记录，该对象与浏览器地址栏的操作相对应，如前进后退，历史记录<br>
+back（）后退//forward（）前进//go（参数）前进后退功能，如果参数是1则前进一个页面，如果是-1则后退一个页面<br>
+<h3>本地存储</h3><br>
+本地存储分类localStorage<br>
+作用可以永久存储在本地，除非永久删除，否则关闭页面也存在<br>
+可以多窗口页面共享（同一浏览器共享）<br>
+以键值对的形式存储<br>
+语法：存储数据：localStorage.setItem(key,value)<br>
 
 
 
