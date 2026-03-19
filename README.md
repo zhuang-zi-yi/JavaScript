@@ -596,6 +596,19 @@ touchend手指从一个dom元素上移开触发<br>
 <h3>js插件</h3><br>
 swiper插件<br> 
 <img width="836" height="365" alt="image" src="https://github.com/user-attachments/assets/06042996-b2ed-4b32-8a86-440137d5520e" /><br>
+this.reset()重置<br>
+<h3>BOM,window</h3><br>
+BOM是浏览器对象模型<br>
+window对象是一个全局对象，也可以说是JavaScript里的顶级对象<br>
+像document，alert（）。console。log（）这些都是window的属性，基本BOM的属性和方法都是window<br>
+所有var定义的全局作用域中的变量，函数都会变成window对象属性方法<br>
+window对象下的属性和方法调用的时候可以省略window<br>
+<h3>延时函数</h3><br>
+ 
+
+
+
+
 
 
  
