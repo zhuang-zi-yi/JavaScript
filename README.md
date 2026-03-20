@@ -670,6 +670,10 @@ localStorage.setItem(obj,obj)无法直接使用<br>
 解决方法：需要将复杂数据类型转换成json字符串，在存储到本地<br>
 语法json.stringify(复杂数据类型)<br>
 local Storage.setItem(键,JSON.stringify(obj))<br>
+把对象转换成对象JSON.parse(localStorage.getItem(`obj`))<br>
+JSON.parse(对象)<br>
+
+
 
 
 
