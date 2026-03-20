@@ -654,7 +654,22 @@ back（）后退//forward（）前进//go（参数）前进后退功能，如果
 可以多窗口页面共享（同一浏览器共享）<br>
 以键值对的形式存储<br>
 语法：存储数据：localStorage.setItem(key,value)<br>
-
+删除键值localStorage.removeItem(`键`)<br>
+改localStorage.setItem(`键`,`改的值`)<br>
+获取:localStorage.getitem(键)<br>
+本地存储只能存储字符串类型<br>
+<h3>本地存储分类sessionStorage</h3>
+生命周期为关闭浏览器窗口<br>
+在一个页面下数据共享<br>
+以键值对的形式储藏<br>
+跟localStorage用法基本一样<br>
+<h3>存储复杂数据类型</h3><br>
+本地只能存储字符串，无法存储复杂数据类型<br>
+let obj {数值，数值，数值}<br>
+localStorage.setItem(obj,obj)无法直接使用<br>
+解决方法：需要将复杂数据类型转换成json字符串，在存储到本地<br>
+语法json.stringify(复杂数据类型)<br>
+local Storage.setItem(键,JSON.stringify(obj))<br>
 
 
 
