@@ -1,4 +1,4 @@
-今天是2026/2/22我又开始从新看JavaScript了.这是从新的第三遍<br>
+<img width="2548" height="1436" alt="image" src="https://github.com/user-attachments/assets/7d1dc25a-af99-406b-a98f-7b0ffaa4b28a" />今天是2026/2/22我又开始从新看JavaScript了.这是从新的第三遍<br>
 javascript是一种运行在客户端的编程语言,实现人机交互<br>
 javascript的组成分为ecmascript(规定了js基础语法)语言和web apis<br>
 而web apis分为DOM(操控文档,页面元素移动大小添加操作)和BOM(操作浏览器页面创空检测窗口宽度，存储数据到浏览器)<br>
@@ -672,6 +672,31 @@ localStorage.setItem(obj,obj)无法直接使用<br>
 local Storage.setItem(键,JSON.stringify(obj))<br>
 把对象转换成对象JSON.parse(localStorage.getItem(`obj`))<br>
 JSON.parse(对象)<br>
+本地存储只能存储字符串<br>
+拼接字符串新思路<br>
+利用map()和join()数组进行字符串拼接<br>
+map可以遍历数组处理数据，返回新的数组<br>
+map也成为映射。映射是术语，指两个元素的集之间元素相互对应关系<br>
+map重点在于有返回值，forEach没有返回值<br>
+join()方法用于把数组中所有元素转换成一个字符串<br>
+join语法：数组.join(``)<br>
+数组元素是通过参数里面指定的分割符，进行分隔的，空字符串（``），则所有元素之间没有任何字符，小括号为空以，分割，如果填写（`|`）用|分割<br>
+this.reset()重置表单<br>
+new Date().toLocaleString()获得本地时间<br>
+confirm(``)使弹出一个弹框选择true和false<br>
+<h3>正则表达式</h3><br>
+正则表达式是用于匹配字符串中字符组合的模式。在JavaScript中，正则表达式耶是对象<br>
+通常来查询，替换那些符合则正则表达式的文本，许多语言都支持正则表达式<br>
+
+
+
+
+
+
+
+
+
+
 
 
 
