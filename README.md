@@ -1,4 +1,4 @@
-<img width="2548" height="1436" alt="image" src="https://github.com/user-attachments/assets/7d1dc25a-af99-406b-a98f-7b0ffaa4b28a" />今天是2026/2/22我又开始从新看JavaScript了.这是从新的第三遍<br>
+今天是2026/2/22我又开始从新看JavaScript了.这是从新的第三遍<br>
 javascript是一种运行在客户端的编程语言,实现人机交互<br>
 javascript的组成分为ecmascript(规定了js基础语法)语言和web apis<br>
 而web apis分为DOM(操控文档,页面元素移动大小添加操作)和BOM(操作浏览器页面创空检测窗口宽度，存储数据到浏览器)<br>
@@ -687,6 +687,7 @@ confirm(``)使弹出一个弹框选择true和false<br>
 <h3>正则表达式</h3><br>
 正则表达式是用于匹配字符串中字符组合的模式。在JavaScript中，正则表达式耶是对象<br>
 通常来查询，替换那些符合则正则表达式的文本，许多语言都支持正则表达式<br>
+正则表达式语法<br>
 
 
 
