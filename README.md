@@ -741,7 +741,7 @@ regObj.test（被检测的字符串）<br>
  change事件，当鼠标离开表单时候内容发生变化<br>
  使用classList.contains()看看有没有包含某个类，如果有就返回true，没有就返回false<br>
  获得自定义id，e.target.dateset.id<br>
- 
+ location查看url和各种地址<br>
 
 
 
