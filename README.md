@@ -743,6 +743,15 @@ regObj.test（被检测的字符串）<br>
  获得自定义id，e.target.dateset.id<br>
  location查看url和各种地址<br>
 mouseover有事件冒泡才能使用事件委托<br>
+mousemove事件鼠标移动事件<br>
+offsettop拿到页面坐标，但是受到父盒子的限制<br>
+可以用元素名.getBoundingClientRect(),这个可以直接获取浏览器的距离不受到父元素的影响<br>
+做放大镜的时候要用获取鼠标在页面中的坐标<br>
+e.pageX拿到页面x<br>
+元素.getBoundingClientRect()获得盒子的所有位置信息，是个对象<br>
+x = e.pageX - 盒子.getBoundeingClientRect().left拿到鼠标在盒子里的坐标<br>
+黑色遮罩层不断得到值，就动起来了盒子.style.keft = x + `px`//y也一样<br>
+<h3>作用域</h3><br>
 
  
  
