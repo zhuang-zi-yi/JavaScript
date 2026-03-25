@@ -863,7 +863,23 @@ var声明的变量外面可以被访问，因为var没有块级作用域<br>
   const{uname：username,age} = {unmae:`pink老师`，age：18}<br>
   这样改名<br>
   旧变量名：新变量名<br>
-    
+   数组对象解构<br>
+  <h3>forEach遍历数组</h3><br>
+  forEach)方法用于调用数组的每个元素，并将元素传给回调函数<br>
+  主要遍历数组每个元素<br>
+  被遍历的数组.forEach(function(当前数组元素，当前元素索引号))}）<br>
+只遍历不返回值<br>
+<h3>筛查数组filter（）</h3><br>
+filter)方法创建一个新的数组，新数组中的元素是通过检查指定数组中符合条件的元素<br>
+主要应用场景：筛选数组符合条件的元素，并返回筛选之后元素的新数组<br>
+filter(function(item,index){return item>=20})<br>
+只能筛选数组不能赋值<br>
+
+
+
+
+
+  
   
 
  
