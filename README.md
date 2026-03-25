@@ -1,4 +1,4 @@
-<img width="409" height="276" alt="image" src="https://github.com/user-attachments/assets/d22ee105-be97-4830-a457-ed90d0d59241" />今天是2026/2/22我又开始从新看JavaScript了.这是从新的第三遍<br>
+今天是2026/2/22我又开始从新看JavaScript了.这是从新的第三遍<br>
 javascript是一种运行在客户端的编程语言,实现人机交互<br>
 javascript的组成分为ecmascript(规定了js基础语法)语言和web apis<br>
 而web apis分为DOM(操控文档,页面元素移动大小添加操作)和BOM(操作浏览器页面创空检测窗口宽度，存储数据到浏览器)<br>
@@ -848,7 +848,13 @@ var声明的变量外面可以被访问，因为var没有块级作用域<br>
  const [max,min,avg]=[100,60,80]<br>
  数组结构是将数组的单元值快速批量赋值给一系列变量的简洁语法。<br>
  赋值运算符=左侧的【】用于批量声明变量，右侧的单元值将被赋值给左侧变量<br>
+ <img width="221" height="112" alt="image" src="https://github.com/user-attachments/assets/fe9fab81-c835-454f-a368-afdfb13f6233" /><br>
+ 最后一个变量要加分号<br>
+ 数组结构前放置分号，立即执行函数放置函数<br>
+ 如果以数组开头则前面要加分号<br>
  
+ 
+
  
    
 
