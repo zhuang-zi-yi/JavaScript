@@ -912,7 +912,9 @@ Array<br>
 Array是内置的构造函数用来创建数组<br>
 const arr = new Array(3,5)<br>
 <img width="1080" height="250" alt="image" src="https://github.com/user-attachments/assets/3e5b5f66-73af-424d-87be-f1910e6b1209" /><br>
-
+reduce返回累计处理的结果，经常用于求和等<br>
+基本语法arr.reduce(function(){},起始值)<br>
+arr.reduce(function(上一次的值，当前的值){}，初始值)//第二个当前的值拿到的是元素//如果不设置初始值拿到的也是元素<br>
 
 
 
