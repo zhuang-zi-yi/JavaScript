@@ -896,6 +896,24 @@ new Object） newDate（）也是实例化构造函数<br>
 通过构造函数创建的对象称为实例对象，实例对象中的属性和方法称为实例成员<br>
 为构造函数传入参数，创建解构相同但是值不同的对象<br>
 构造函数创建的实例对象彼此独立互不影响<br>
+<h3>内置构造函数</h3><br>
+其实字符串，数值，布尔，等基本数据类型都有专门的构造函数，这些我们称为包装类型<br>
+引用类型:Object,Arrat,RegExp,Date<br>
+包装类型String,Number,Boolean<br>
+Object是内置的构造函数<br>
+for (let k in o){}<br>
+打印k的意思是对象前的名称<br>
+静态方法（静态方法只有构造函数Object可以调用）<br>
+作用Object.kets静态方法获取对象的所有值，取出来的值为数组<br>
+Object.values(o)是取里面的值以数组呈现<br>
+Object.assign静态方法常用于对象拷贝<br>
+Object.assign(拷贝，被拷贝的)<br>
+Array<br>
+Array是内置的构造函数用来创建数组<br>
+const arr = new Array(3,5)<br>
+<img width="1080" height="250" alt="image" src="https://github.com/user-attachments/assets/3e5b5f66-73af-424d-87be-f1910e6b1209" /><br>
+
+
 
 
 
