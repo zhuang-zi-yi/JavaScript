@@ -915,7 +915,12 @@ const arr = new Array(3,5)<br>
 reduce返回累计处理的结果，经常用于求和等<br>
 基本语法arr.reduce(function(){},起始值)<br>
 arr.reduce(function(上一次的值，当前的值){}，初始值)//第二个当前的值拿到的是元素//如果不设置初始值拿到的也是元素<br>
+arr.find(functon(item){return item === `blue`})//寻找数据item//拿取对象item使用数组.名字<br>
+every查找检测数组元素是否都符合条件，如果所有条件都通过检测返回true<br>
+获取对象所有属性object.values)返回的数组<br>
+ 
 
+ 
 
 
 
