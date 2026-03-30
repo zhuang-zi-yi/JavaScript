@@ -1,4 +1,4 @@
-今天是2026/2/22我又开始从新看JavaScript了.这是从新的第三遍<br>
+<img width="585" height="204" alt="image" src="https://github.com/user-attachments/assets/bec92675-07f4-4c1c-ba4a-3cd730e7c319" />今天是2026/2/22我又开始从新看JavaScript了.这是从新的第三遍<br>
 javascript是一种运行在客户端的编程语言,实现人机交互<br>
 javascript的组成分为ecmascript(规定了js基础语法)语言和web apis<br>
 而web apis分为DOM(操控文档,页面元素移动大小添加操作)和BOM(操作浏览器页面创空检测窗口宽度，存储数据到浏览器)<br>
@@ -926,6 +926,20 @@ Array.from(伪数组)<br>
  split(`文本`)用来将字符串拆分成数组，就是将里面分成一个一个的字符串<br>
  substring(需要截取的第一个字符的索引[,结束索引号])用于字符串截取<br>
  startswith(检测字符串[，检测位置索引号])<br>
+ includes（检测字符串【，结束索引号】)方法是区分大小写的只要包含就显示true<br>
+ split()是将数组转换成一个一个字符串，join()是将数组合成一个字符串<br>
+ 数组.map(function(当前元素, 索引, 原数组) {<br>
+    // 返回处理后的新元素<br>
+    return 新值;<br>
+})<br>
+item原来是当前元素我去<br>
+<h3>Number</h3><br>
+Number是内置的构造函数，用于创建数组<br>
+toFixed)设置保留小数位的长度<br>
+const price = 12.345<br>
+console.log(price.toFixed(2))保留小数位的长度是四舍五入<br>
+ 
+
  
  
 
