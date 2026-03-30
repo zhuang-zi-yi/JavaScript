@@ -918,7 +918,22 @@ arr.reduce(function(上一次的值，当前的值){}，初始值)//第二个当
 arr.find(functon(item){return item === `blue`})//寻找数据item//拿取对象item使用数组.名字<br>
 every查找检测数组元素是否都符合条件，如果所有条件都通过检测返回true<br>
 获取对象所有属性object.values)返回的数组<br>
+把伪数组转换成真数组<br>
+Array.from(伪数组)<br>
+<h3>String</h3><br>
+致所有有对象特征原因是字符串，数值，布尔值数据类型是JavaScript底层使用object构造函数包装来的，被称为包装类型<br>
+<img width="1097" height="526" alt="image" src="https://github.com/user-attachments/assets/796a3961-50f7-4a23-af1e-7caf08f96ba9" /><br>
+ split(`文本`)用来将字符串拆分成数组，就是将里面分成一个一个的字符串<br>
+ substring(需要截取的第一个字符的索引[,结束索引号])用于字符串截取<br>
+ startswith(检测字符串[，检测位置索引号])<br>
  
+ 
+
+
+
+
+
+
 
  
 
