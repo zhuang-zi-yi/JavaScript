@@ -958,8 +958,11 @@ constructor属性<br>
 只要是原型对象都有constructor属性<br>
 该属性指原型对象的构造函数<br>
 构造函数和constructor属性互相指认<br>
-
-
+constructor:Star,//重新指回原型对象<br>
+<h3>对象原型</h3><br>
+对象都会有一个_proto_指向构造函数的prototype原型对象，之所以我们对象可以用构造函数prototype原型对象的属性和方法，因为对象有_proto_存在
+__proto__是js非标准属性<br>
+[prototypr]和__proto__是一样的<br>
 
 
 
