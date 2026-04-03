@@ -963,6 +963,8 @@ constructor:Star,//重新指回原型对象<br>
 对象都会有一个_proto_指向构造函数的prototype原型对象，之所以我们对象可以用构造函数prototype原型对象的属性和方法，因为对象有_proto_存在
 __proto__是js非标准属性<br>
 [prototypr]和__proto__是一样的<br>
+<h3>原型继承</h3>
+继承是面向对象编程的另一特征，通过继承进一步提升代码封装的程度，JavaScript中大多是借助原型对象实现继承的特性<br>
 
 
 
