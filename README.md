@@ -1,4 +1,4 @@
-<img width="2559" height="1426" alt="image" src="https://github.com/user-attachments/assets/36cd89f8-ee15-4acf-90f2-eafcc3d883c3" />今天是2026/2/22我又开始从新看JavaScript了.这是从新的第三遍<br>
+ 今天是2026/2/22我又开始从新看JavaScript了.这是从新的第三遍<br>
 javascript是一种运行在客户端的编程语言,实现人机交互<br>
 javascript的组成分为ecmascript(规定了js基础语法)语言和web apis<br>
 而web apis分为DOM(操控文档,页面元素移动大小添加操作)和BOM(操作浏览器页面创空检测窗口宽度，存储数据到浏览器)<br>
@@ -963,12 +963,21 @@ constructor:Star,//重新指回原型对象<br>
 对象都会有一个_proto_指向构造函数的prototype原型对象，之所以我们对象可以用构造函数prototype原型对象的属性和方法，因为对象有_proto_存在
 __proto__是js非标准属性<br>
 [prototypr]和__proto__是一样的<br>
-<h3>原型继承</h3>
+<h3>原型继承</h3><br>
 继承是面向对象编程的另一特征，通过继承进一步提升代码封装的程度，JavaScript中大多是借助原型对象实现继承的特性<br>
-
-
-
-
+<h3>原型链</h3><br>
+<img width="1050" height="834" alt="image" src="https://github.com/user-attachments/assets/1bd1ee91-4e79-497c-a9b9-01b3bbb4cf7f" /><br>
+当访问一个对象属性时候，首先查找对象自身有没有属性<br>
+没有就查找他的原型就说__proto__指向的prototype原型对象<br>
+如果还没查到原型对象的原型<br>
+就依次类推找到object【null】<br>
+instanceof查看是谁创建出来的实例对象<br>
+创建标签document.createElement(`div`)<br>
+让对象变成使用构造函数的open方法modal.prototype.open<br>
+<h3>深浅拷贝</h3><br>
+开发中经常需要复制一个对象，要直接赋值会出现问题<br>
+ 首先深浅拷贝只针对引用类型<br>
+ 浅拷贝：拷贝的是地址<br>
  
 
 
