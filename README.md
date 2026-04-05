@@ -1,4 +1,4 @@
-<img width="1101" height="1020" alt="image" src="https://github.com/user-attachments/assets/229f5cc8-2a18-42f6-b3db-d3f85890eb1c" /> 今天是2026/2/22我又开始从新看JavaScript了.这是从新的第三遍<br>
+ 今天是2026/2/22我又开始从新看JavaScript了.这是从新的第三遍<br>
 javascript是一种运行在客户端的编程语言,实现人机交互<br>
 javascript的组成分为ecmascript(规定了js基础语法)语言和web apis<br>
 而web apis分为DOM(操控文档,页面元素移动大小添加操作)和BOM(操作浏览器页面创空检测窗口宽度，存储数据到浏览器)<br>
@@ -1011,9 +1011,13 @@ throw new Error<br>
 try/catch捕获错误信息<br>
 try试试///catch拦住///finally最后<br>
 finally不管你代码对不对都会执行你的代码<br>
-
-  
-  
+debugger代码段的断点调试<br>
+ <h3>处理this</h3><br>
+ 普通函数的this指向<br>
+ `use strict`严格模式<br>
+ 箭头函数没有this<br>
+ 箭头函数会默认绑定外层的this所以箭头函数的this和外面的this是一样的
+ 
 
  
    
