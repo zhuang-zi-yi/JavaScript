@@ -1,4 +1,4 @@
- 今天是2026/2/22我又开始从新看JavaScript了.这是从新的第三遍<br>
+<img width="1101" height="1020" alt="image" src="https://github.com/user-attachments/assets/229f5cc8-2a18-42f6-b3db-d3f85890eb1c" /> 今天是2026/2/22我又开始从新看JavaScript了.这是从新的第三遍<br>
 javascript是一种运行在客户端的编程语言,实现人机交互<br>
 javascript的组成分为ecmascript(规定了js基础语法)语言和web apis<br>
 而web apis分为DOM(操控文档,页面元素移动大小添加操作)和BOM(操作浏览器页面创空检测窗口宽度，存储数据到浏览器)<br>
@@ -978,9 +978,39 @@ instanceof查看是谁创建出来的实例对象<br>
 开发中经常需要复制一个对象，要直接赋值会出现问题<br>
  首先深浅拷贝只针对引用类型<br>
  浅拷贝：拷贝的是地址<br>
- 
+ 将对象换一个声明对象浅拷贝<br>
+const o = {}
+Object.assign(o.obj)<br>
+把旧的给新的就是浅拷贝<br>
+浅拷贝主要是外面一层拷贝成功，再深一层里头的对象不会被误改<br>
+浅拷贝适合单层，或者简单数据类型<br>
+深拷贝的三种方式:<br>
+1通过递归实现深拷贝<br>
+lodash/cloneDeep<br>
+通过json.stringify<br>
+<h3>函数递归</h3><br>
+如果一个函数再内部可以调用自身，那么这个函数是递归函数<br>
+函数自己调用自己就是递归<br>
+递归容易栈溢出的错误，必须加入推出条件和return<br>
 
+深拷贝就是创建出来的对象不会影响新对象不会影响旧对象，使用函数递归<br>
+如果拥有数组和对象递归<br>
+常用放法2使用js库里lodash里面的cloneDeep内部实现的深拷贝<br>
 
+常用方法3使用<br>
+JSON.stringify()让对象变成字符串<br>
+JSON.stringify()是一大串字符<br>
+JSON.parse（）将字符串转换成对象<br>
+<h3>异常处理</h3><br>
+throw抛异常<br>
+异常处理是指预估代码执行过程中可能发生的错误，然后最大程度的发生导致整个程序无法进行<br>
+throw new Error<br>
+ throw抛出异常信息,程序也会终止执行<br>
+ throw后面跟的是错误提示信息<br>
+ Error对象配合throw使用设置更详细错误信息<br>
+try/catch捕获错误信息<br>
+try试试///catch拦住///finally最后<br>
+finally不管你代码对不对都会执行你的代码<br>
 
   
   
