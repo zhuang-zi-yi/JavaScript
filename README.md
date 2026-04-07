@@ -1,4 +1,4 @@
- 今天是2026/2/22我又开始从新看JavaScript了.这是从新的第三遍<br>
+<img width="883" height="460" alt="image" src="https://github.com/user-attachments/assets/166a9e7a-7ff1-4366-a55e-03814616cdd2" /> 今天是2026/2/22我又开始从新看JavaScript了.这是从新的第三遍<br>
 javascript是一种运行在客户端的编程语言,实现人机交互<br>
 javascript的组成分为ecmascript(规定了js基础语法)语言和web apis<br>
 而web apis分为DOM(操控文档,页面元素移动大小添加操作)和BOM(操作浏览器页面创空检测窗口宽度，存储数据到浏览器)<br>
@@ -1017,11 +1017,43 @@ debugger代码段的断点调试<br>
  `use strict`严格模式<br>
  箭头函数没有this<br>
  箭头函数会默认绑定外层的this所以箭头函数的this和外面的this是一样的
- 
-
- 
+ JavaScript中允许函数中this指向，有三种可以动态指定普通函数this指向<br>
+ call（）<br>
+ apply（）<br>
+ bind（）<br>
+ call方法调用函数，同时会被调用函数中this值<br>
+ fun.call(thisArg,arg1,arg2)<br>
+ thisArg在fun函数中指定的this<br>
+返回值就是函数返回值，他是调用函数<br>
+apply()<br>
+使用apply方法调用函数，同时指定调用函数this值<br>
+fun.apply(thisArg,[argsArray])<br>
+thisArg:在fun函数运行指定的this<br>
+argsArray：传递的值，必须包含在数组里头<br>
+返回值就是函数的返回值，因为它就是调用函数<br>
+因此apply主要跟数组有关系，比如使用Math，max（）求最大值<br>
+apply要求传参的必须是数组<br>
+apply主要跟数组有干系，可以用math.max求数组最大值<br>
+bind()<br>
+bind()不会调用函数，但是可以改变函数内部this指向<br>
+fun.bind(thisArg,arg1,arg2,....)<br>
+thisArg:在fun函数运行时指定的this值<br>
+arg1，arg2：传递的其他参数<br>
+返回由指定的this值和初始化参数改造的原数组拷贝<br>
+我们只是想改变this指向但是不想调用这个函数时候，可以使用bind，比如改变定时器内部this指向<br>
+ <h3>防抖</h3>
+ 防抖单位时间内，频繁触发事件，只执行最后一次!<br> 
+ 手写防抖函数<br>
+ 核心是利用setTimenout定时器来实现<br>
+ 1声明定时器变量<br>
+ 2每次鼠标移动的时候先判断是否有定时器，如果有先清除以前的定时器<br>
+3 如果没有定时器，则开启定时器存入预定定时器变量<br>
+ 4定时器里面写函数嗲用<br>
    
-
+<h3>节流</h3><br>
+单位时间内，频繁出发事件，只执行一次<br>
+高频事件：鼠标移动mousemove，页面尺寸缩放resize，滚动条滚动scroll<br>
+ lodash提供节流函数<br>
  
 
 
