@@ -1,4 +1,4 @@
-<img width="883" height="460" alt="image" src="https://github.com/user-attachments/assets/166a9e7a-7ff1-4366-a55e-03814616cdd2" /> 今天是2026/2/22我又开始从新看JavaScript了.这是从新的第三遍<br>
+今天是2026/2/22我又开始从新看JavaScript了.这是从新的第三遍<br>
 javascript是一种运行在客户端的编程语言,实现人机交互<br>
 javascript的组成分为ecmascript(规定了js基础语法)语言和web apis<br>
 而web apis分为DOM(操控文档,页面元素移动大小添加操作)和BOM(操作浏览器页面创空检测窗口宽度，存储数据到浏览器)<br>
@@ -1054,7 +1054,18 @@ arg1，arg2：传递的其他参数<br>
 单位时间内，频繁出发事件，只执行一次<br>
 高频事件：鼠标移动mousemove，页面尺寸缩放resize，滚动条滚动scroll<br>
  lodash提供节流函数<br>
- 
+核心思路<br>
+节流的核心就是利用定时器settimeout来实现<br>
+声明一个定时器变量<br>
+当鼠标每次滑动都先
+判断是否有定时器，如果有定时器则不开启新定时器<br>
+如果没有定时器则开启定时器，记得存到变量里面<br>
+定时器调用执行函数<br>
+在settimeout中是无法删除定时器的，因为定时器还在运作所以使用null，而不是cleartimeout<br>
+<img width="2026" height="827" alt="image" src="https://github.com/user-attachments/assets/09be7764-71a1-4f20-b17e-43be47c4599e" /><br>
+ontimeupdate事件在视频/音频当前播放位置发送改变触发<br>
+onloadeddata事件在当前的数据加载完成还没有播放足够数据播放视频/音频的下一帧触发<br>
+
 
 
 
